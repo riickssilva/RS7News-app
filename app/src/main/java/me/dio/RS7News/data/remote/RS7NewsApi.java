@@ -1,12 +1,12 @@
-package me.dio.soccernews.data.remote;
+package me.dio.RS7News.data.remote;
 
 import java.util.List;
 
-import me.dio.soccernews.domain.News;
+import me.dio.RS7News.domain.News;
 import retrofit2.Call;
 import retrofit2.http.GET;
 
-public interface SoccerNewsApi {
+public interface RS7NewsApi {
 
     @GET("news.json")
     Call<List<News>> getNews();

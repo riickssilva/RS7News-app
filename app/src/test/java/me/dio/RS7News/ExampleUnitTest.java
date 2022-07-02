@@ -1,8 +1,8 @@
-package me.dio.soccernews;
+package me.dio.RS7News;
+
+import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
-
-import static org.junit.Assert.*;
 
 /**
  * Example local unit test, which will execute on the development machine (host).

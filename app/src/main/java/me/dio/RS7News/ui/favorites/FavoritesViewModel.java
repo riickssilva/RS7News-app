@@ -1,4 +1,4 @@
-package me.dio.soccernews.ui.favorites;
+package me.dio.RS7News.ui.favorites;
 
 import android.os.AsyncTask;
 
@@ -7,8 +7,8 @@ import androidx.lifecycle.ViewModel;
 
 import java.util.List;
 
-import me.dio.soccernews.data.SoccerNewsRepository;
-import me.dio.soccernews.domain.News;
+import me.dio.RS7News.data.RS7NewsRepository;
+import me.dio.RS7News.domain.News;
 
 public class FavoritesViewModel extends ViewModel {
 
@@ -17,11 +17,11 @@ public class FavoritesViewModel extends ViewModel {
     }
 
     public LiveData<List<News>> loadFavoriteNews() {
-        return SoccerNewsRepository.getInstance().getLocalDb().newsDao().loadFavoriteNews();
+        return RS7NewsRepository.getInstance().getLocalDb().newsDao().loadFavoriteNews();
     }
 
     public void saveNews(News news) {
-        AsyncTask.execute(() -> SoccerNewsRepository.getInstance().getLocalDb().newsDao().save(news));
+        AsyncTask.execute(() -> RS7NewsRepository.getInstance().getLocalDb().newsDao().save(news));
     }
 
 }

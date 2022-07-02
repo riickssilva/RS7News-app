@@ -1,4 +1,4 @@
-package me.dio.soccernews;
+package me.dio.RS7News;
 
 import android.app.Application;
 

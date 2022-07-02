@@ -1,4 +1,4 @@
-package me.dio.soccernews.data.local;
+package me.dio.RS7News.data.local;
 
 import androidx.lifecycle.LiveData;
 import androidx.room.Dao;
@@ -8,7 +8,7 @@ import androidx.room.Query;
 
 import java.util.List;
 
-import me.dio.soccernews.domain.News;
+import me.dio.RS7News.domain.News;
 
 @Dao
 public interface NewsDao {

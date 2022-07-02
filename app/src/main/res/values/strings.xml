@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Soccer News</string>
+    <string name="app_name">RS7 News</string>
 
     <string name="title_news">News</string>
     <string name="title_favorites">Favorites</string>
@@ -10,5 +10,6 @@
 
     <string name="txt_open_link">Open Link</string>
 
-    <string name="error_network">Network error.</string>
+    <string name="error_network">Network error</string>
+    <string name="network_error">network_error</string>
 </resources>

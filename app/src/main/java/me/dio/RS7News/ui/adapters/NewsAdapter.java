@@ -1,4 +1,4 @@
-package me.dio.soccernews.ui.adapters;
+package me.dio.RS7News.ui.adapters;
 
 import android.content.Context;
 import android.content.Intent;
@@ -13,9 +13,10 @@ import com.squareup.picasso.Picasso;
 
 import java.util.List;
 
-import me.dio.soccernews.R;
-import me.dio.soccernews.databinding.NewsItemBinding;
-import me.dio.soccernews.domain.News;
+import me.dio.RS7News.R;
+import me.dio.RS7News.databinding.NewsItemBinding;
+import me.dio.RS7News.domain.News;
+
 
 public class NewsAdapter extends RecyclerView.Adapter<NewsAdapter.ViewHolder> {
 
