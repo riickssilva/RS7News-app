@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "479532654821",
+    "project_id": "rs7-news",
+    "storage_bucket": "rs7-news.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:479532654821:android:0d126147bffdbd4dfab40c",
+        "android_client_info": {
+          "package_name": "me.dio.RS7News"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "479532654821-ttiv40ls80e4jhtirr9gpr2i8gfmi00q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhaeKnsL3RbE6Fary9FHGuTq-DKGUcNxE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "479532654821-ttiv40ls80e4jhtirr9gpr2i8gfmi00q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
