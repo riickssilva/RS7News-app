@@ -10,7 +10,7 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
-    }
+         }
 }
 rootProject.name = "RS7 News"
 include ':app'

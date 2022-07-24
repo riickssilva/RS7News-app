@@ -8,6 +8,6 @@ import retrofit2.http.GET;
 
 public interface RS7NewsApi {
 
-    @GET("news.json")
+    @GET("fontes.json")
     Call<List<News>> getNews();
 }

@@ -15,7 +15,7 @@
             android:layout_width="0dp"
             android:layout_height="@dimen/news_image_height"
             android:contentDescription="@string/cd_news_image"
-            android:src="@color/teal_200"
+            android:src="@color/blue_grey_200"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
@@ -28,7 +28,8 @@
             android:layout_marginStart="@dimen/default_margin"
             android:layout_marginTop="@dimen/default_margin"
             android:layout_marginEnd="@dimen/default_margin"
-            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:contentDescription="@string/title_news"
+            android:textAppearance="@style/TextAppearance.AppCompat.Title"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/ivThumbnail"
@@ -46,7 +47,7 @@
             app:layout_constraintTop_toBottomOf="@+id/tvTitle"
             tools:text="As meninas da Ferrinha derrotaram o Palmeiras no último domingo." />
 
-        <com.google.android.material.button.MaterialButton
+       \* <com.google.android.material.button.MaterialButton
             android:id="@+id/btOpenLink"
             style="?attr/borderlessButtonStyle"
             android:layout_width="wrap_content"
@@ -58,6 +59,7 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/tvDescription" />
+
 
         <ImageView
             android:id="@+id/ivFavorite"

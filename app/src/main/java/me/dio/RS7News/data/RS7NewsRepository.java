@@ -11,7 +11,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
 public class RS7NewsRepository {
 
     //region Constantes
-    private static final String REMOTE_API_URL = "https://digitalinnovationone.github.io/soccer-news-api/";
+    private static final String REMOTE_API_URL = "https://riickssilva.github.io/RS7News-api/";
     private static final String LOCAL_DB_NAME = "RS7-news";
     //endregion
 
